@@ -1,12 +1,26 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
-.maindiv{
+body {
+    background-color:black;
+    font-family:arial;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color:white}
+
+    h1{color:grey;
+        font-family:verdana}
+
+        .maindiv{
+    
     background-color: white;
     color: black;
-    width: 300px;
-    padding: 20px;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
     border-radius: 25px;
-    align: center;
 }
-
+.infos{
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.5;
+}
 
